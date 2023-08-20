@@ -13,7 +13,7 @@ public interface IDropHead<T extends Mob> extends IContainerEntity<T> {
 
     @Override
     default void doHeadDrop() {
-        getHeadType().drop(getImplementation(), 12);
+        
     }
 
 }
